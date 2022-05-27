@@ -1,0 +1,24 @@
+---
+author: "NASA GeneLab Project"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+x <- 1
+y <- 2
+print("Hello World", x + y)
+```
+
+
+```{r load library}
+data(mtcars)
+df <- mtcars[, c("mpg", "cyl", "wt")]
+head(df)
+plot(df$wt, df$mpg)
+```
+
+```{r knit this notebook}
+# RUN THIS DIRECTLY IN TERMINAL, DO NOT UNCOMMENT
+#rmarkdown::render("C:\\Users\\joribell\\Documents\\Genelab_Windows\\local_repos\\2022SummerInterns\\orientation_package\\examples\\example.rmd", "html_document")
+```

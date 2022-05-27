@@ -1,0 +1,31 @@
+name: glds_microarrays_nf
+channels:
+   - conda-forge
+   - bioconda
+   - defaults
+dependencies:
+   - conda-forge::r-essentials
+   - bioconductor-oligo
+   - conda-forge::libblas=3.9.0=8_mkl
+   - r-knitr
+   - r-markdown
+   - r-optparse
+   - r-rsqlite
+   - bioconductor-stringdb
+   - bioconductor-annotationdbi
+   - bioconductor-limma
+   - bioconductor-geoquery
+   - r-statmod
+   - r-lobstr
+   - r-vroom
+   - r-tzdb
+   - r-dt
+   - r-bslib
+   - python=3.10
+   - r-markdown
+   - pandoc # for rmarkdown render conversions to html
+   - miktex # Windows specific: for rmarkdown render conversions to pdf
+   #- texlive-core # Mac/Linux specific: for rmarkdown render conversions to pdf
+   - pip
+   - pip:
+     - git+https://github.com/J-81/Analysis_Staging.git@0.4.0-beta.1
