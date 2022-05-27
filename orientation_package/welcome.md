@@ -1,6 +1,7 @@
 # GeneLab Summer Internship: Microarray Data Processing Pipeline Development Project
 
 - [GeneLab Summer Internship: Microarray Data Processing Pipeline Development Project](#genelab-summer-internship-microarray-data-processing-pipeline-development-project)
+  - [Reading List](#reading-list)
   - [Software](#software)
     - [All Operating Systems](#all-operating-systems)
     - [Windows Only](#windows-only)
@@ -207,5 +208,4 @@ Timeline:
             - Incorporate your check functions into an automated protocol (*I have a framework for this we may use; however, creating your own can be useful practice in writing larger software*)
 
     1.  Deliverables
-        1. Final GeneLab project slide deck
-        1. Final Github repository
+        1. Final GeneLab Presentation
