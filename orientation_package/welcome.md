@@ -14,10 +14,17 @@
 These articles should be reviewed before starting the internship.
 
 Programming:
-- placeholder
+- Reviewing Python
+  - https://swcarpentry.github.io/python-novice-inflammation/
+- Introduction / Reviewing R Basics
+  - https://astrobiomike.github.io/R/basics
 
 Microarray:
-- placeholder
+- "Gene Expression Analysis and DNA Microarray Assays - Professor Dave Explains"
+  - https://www.youtube.com/watch?v=Hv5flUOsE0s
+- An example of processing in rmarkdown
+  - Note: focus on outlining  the major steps rather than the numeric details of this specific example
+  - https://www.stat.purdue.edu/bigtap/online/docs/Introduction_to_Microarray_Analysis_GSE15947.html
 
 ## Software
 
